@@ -1,0 +1,49 @@
+:root {
+	--clr-background-dark: #1F2937;
+	--clr-button-blue: #3882F6;
+	--clr-blue-secondary: #E5E7EB;
+	--clr-font-main: #F9FAF8;
+}
+body {
+	font-family: Verdana, sans-serif;
+	color: var(--clr-font-main);
+}
+a:link, a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+ul {
+	display: flex;
+	margin: 0;
+}
+li {
+	margin-right: 1em;
+}
+li:last-child {
+	margin-right: 0;
+}
+header, section, footer {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 1em;
+}
+
+/*Header*/
+
+header {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 1em;
+	background-color: var(--clr-background-dark);
+}
+.logo {
+	margin-bottom: 1em;
+	margin-right: 2em;
+}
+
+/*Hero*/
+
+.hero {
+	background-color: var(--clr-background-dark);
+}
